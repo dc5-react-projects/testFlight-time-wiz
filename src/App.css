@@ -1,0 +1,136 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 64px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(-45deg, #71b7fc, #c0e0ff);
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  padding: 6px;
+}
+
+.header-title {
+  color: #84c1ff;
+  margin-bottom: 4px;
+}
+
+.header-text {
+  color: #778da9;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  max-width: 400px;
+  background-color: #ffffff;
+  height: 470px;
+  border-radius: 24px;
+  box-shadow: 0 4px 8px 4px rgba(214, 234, 255, 0.5);
+  margin: 24px;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-header-title {
+  color: #84c1ff;
+  padding-top: 16px;
+  margin: 8px;
+}
+
+.card-header-text {
+  color: #778da9;
+  font-weight: 500;
+  margin: 4px;
+  margin-top: 0;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  gap: 4px;
+}
+
+.input-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3a5577;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 12px;
+  background-color: #f8fbff;
+  border: 1px solid #d6eaff;
+  width: 50%;
+}
+
+.output-container {
+  display: flex;
+  flex-direction: column;
+  padding: 4px 6px;
+  border: 1px solid #d6eaff;
+  border-radius: 12px;
+  margin: 8px 24px;
+}
+.output-heading {
+  font-size: 16px;
+  color: #3a5577;
+  margin: 8px;
+}
+.output-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 12px;
+  margin: 2px 8px;
+}
+
+.output-label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.output-label span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #778da9;
+}
+
+.output-result {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.output-result span {
+  font-size: 14px;
+  font-weight: 800;
+  color: #84c1ff;
+}
