@@ -13,6 +13,7 @@ export default function Input({ lable, type, placeholder }) {
         id="start-date"
         placeholder={placeholder}
       ></input>
+      {/* <input type="number" min="1" max="10" step="1" value="1"></input> */}
       {/* </div> */}
     </div>
   );

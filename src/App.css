@@ -134,3 +134,44 @@
   font-weight: 800;
   color: #84c1ff;
 }
+/* Tablet */
+@media (min-width: 624px) {
+  .card {
+    max-width: 400px;
+  }
+}
+
+/* Laptops */
+@media (min-width: 748px) {
+  .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .card {
+    width: 400;
+    max-width: 425px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .main {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  .card {
+    max-width: 450px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 748px) {
+  .input-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

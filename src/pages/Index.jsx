@@ -6,10 +6,12 @@ import "../App.css";
 import TimeConverter from "../components/TimeConverter";
 export default function Index() {
   return (
-    <div className="main">
+    <>
       <Header />
-      <DateCalculator />
-      <TimeConverter />
-    </div>
+      <div className="main">
+        <DateCalculator />
+        <TimeConverter />
+      </div>
+    </>
   );
 }
