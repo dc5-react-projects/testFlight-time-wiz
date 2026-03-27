@@ -1,6 +1,4 @@
-import React from "react";
-
-export default function Input({ lable, type, placeholder }) {
+export default function Input({ lable, type, value, setValue }) {
   return (
     <div className="input-container">
       {/* <div className="input-wrapper"> */}
@@ -11,7 +9,8 @@ export default function Input({ lable, type, placeholder }) {
         className="input"
         type={type}
         id="start-date"
-        placeholder={placeholder}
+        value={value || ""}
+        onChange={(e) => setValue(e.target.value)}
       ></input>
       {/* <input type="number" min="1" max="10" step="1" value="1"></input> */}
       {/* </div> */}
