@@ -63,10 +63,6 @@ export default function TimeConverter() {
     // setActiveInput(null);
   }
 
-  console.log(days);
-  console.log(hours);
-  console.log(weeks.toFixed(2));
-  console.log(Math.round(weeks));
   return (
     <Card>
       <CardHeader

@@ -9,7 +9,6 @@ export default function Input({ lable, type, value, setValue }) {
   }
   return (
     <div className="input-container">
-      {/* <div className="input-wrapper"> */}
       <label className="input-label" htmlFor="start-date">
         {lable}
       </label>
@@ -20,8 +19,6 @@ export default function Input({ lable, type, value, setValue }) {
         value={value}
         onChange={handleChange}
       ></input>
-      {/* <input type="number" min="1" max="10" step="1" value="1"></input> */}
-      {/* </div> */}
     </div>
   );
 }

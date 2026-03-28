@@ -4,10 +4,6 @@
   --secondary: #6665dd;
   --tertiry: #9b9ece;
 
-  /* --text-h: #000500; */
-  /* --bg: #acadbc; */
-  /* --border: #e5e4e7; */
-  /* --code-bg: #f4f3ec; */
   --accent: #84c1ff;
   /* --accent-bg: rgba(170, 59, 255, 0.1); */
   /* --accent-border: rgba(170, 59, 255, 0.5); */
@@ -17,7 +13,6 @@
 
   --sans: "Urbanist", sans-serif;
   --heading: system-ui, "Segoe UI", Roboto, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
 
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;

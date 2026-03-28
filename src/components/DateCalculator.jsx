@@ -8,7 +8,7 @@ import Checkbox from "./Checkbox";
 export default function DateCalculator() {
   const [startDate, setStartDate] = useState("");
   const [endDate, setEndDate] = useState("");
-  const [includeEndDate, seteIncludeEndDate] = useState(true);
+  const [includeEndDate, seteIncludeEndDate] = useState(false);
 
   const MS = {
     hour: 1000 * 60 * 60,
@@ -30,9 +30,6 @@ export default function DateCalculator() {
     const weeks = Math.floor(difference / MS.week);
     return { hours, days, weeks };
   }
-
-  console.log(startDate);
-  console.log(endDate);
 
   const result = getTimeDifference(startDate, endDate);
   return (
